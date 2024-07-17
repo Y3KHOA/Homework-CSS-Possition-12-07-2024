@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+  width: 400px; /* Adjust width according to the largest square */
+  height: 400px; /* Adjust height according to the largest square */
+  margin: 0 auto;
+}
+
+.red, .green, .blue, .yellow, .black, .purple, .darkblue, .grey {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.red {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  z-index: 4;
+}
+
+.green {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  z-index: 5;
+}
+
+.blue {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  z-index: 6;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  z-index: 7;
+}
+
+.black {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  z-index: 8;
+}
+
+.purple {
+  background-color: purple;
+  width: 300px;
+  height: 300px;
+  z-index: 3;
+}
+
+.darkblue {
+  background-color: darkblue;
+  width: 350px;
+  height: 350px;
+  z-index: 2;
+}
+
+.grey {
+  background-color: grey;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+}
