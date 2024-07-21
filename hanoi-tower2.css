@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root2 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.red2 {
+  position: absolute;
+  top: calc(50% - 125px);
+  left: calc(50% - 125px);
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  z-index: 4;
+}
+
+.green2 {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  z-index: 5;
+}
+
+.blue2 {
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 75px);
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  z-index: 6;
+}
+
+.yellow2 {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  z-index: 7;
+}
+
+.black2 {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  z-index: 8;
+}
+
+.purple2 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  background-color: purple;
+  width: 300px;
+  height: 300px;
+  z-index: 3;
+}
+
+.darkblue2 {
+  position: absolute;
+  top: calc(50% - 175px);
+  left: calc(50% - 175px);
+  background-color: darkblue;
+  width: 350px;
+  height: 350px;
+  z-index: 2;
+}
+
+.grey2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: grey;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+}
